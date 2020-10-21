@@ -6,6 +6,6 @@ This doc also serves as a lovely diary:)
 
 [2020-10-21] (In A302, School of computer science, WHU)
 
-Uploaded the <Application Structure Module Draft> <Model Training Module Drafe>
+Uploaded the Application Structure Module Draft, Model Training Module Draft, UML pic 
 
 ![微信图片_20201021094422.jpg](https://i.loli.net/2020/10/21/BJjF6GClcbknydI.jpg)
