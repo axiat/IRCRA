@@ -1,6 +1,6 @@
 Hi
 
-This is the documentation of my recent program RCRA, which stands for Road Condition Report Application. The application implements the automatic detection of traffic violation/traffic volume and restore captured pictures in a mysql database. The program is directed by Prof. Qiang, Yang.
+This is the documentation of my recent program IRCRA, which stands for Intelligent Road Condition Report Application. The application implements the automatic detection of traffic violation/traffic volume and restore captured pictures in a mysql database. The program is directed by Prof. Qiang, Yang.
 
 This doc also serves as a lovely diary:)
 

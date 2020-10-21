@@ -2,9 +2,9 @@
 from distutils.core import setup
 
 setup(
-    name="IRCRA",
+    name="RCRA",
     version="1.0",
-    description="Intelligent Road Condition Report Application",
+    description="Road Condition Report Application",
     author="Qinning Xu",
     # 包路径与python模块(.py扩展名文件)
     packages=[
