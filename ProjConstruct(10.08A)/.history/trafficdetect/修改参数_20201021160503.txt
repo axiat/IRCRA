@@ -1,0 +1,3 @@
+yolov4-tiny.cfg 
+filters = (5+classes)*3 改掉 改为 方框加概率加一个类别的概率:有无人脸
+classes = 1 人脸侦测
