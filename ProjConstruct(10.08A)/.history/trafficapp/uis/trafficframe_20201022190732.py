@@ -28,7 +28,7 @@ class WTrafficDialog(QDialog):
         self.show()
 
     # 其他交互与逻辑处理
-    def show_video(self, data, w, h, c, th_id):
+    def show_video(self, data, h, w, c, th_id):
         qimg = QImage(data, w, h, w*c, QImage.Format_RGB888)
         qpixmap = QPixmap.fromImage(qimg)
 
