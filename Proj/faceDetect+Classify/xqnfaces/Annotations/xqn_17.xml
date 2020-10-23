@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>/home/qin/SeniorA/PracticeA/IRCRA/Proj/datasets/data_facec/xqnfaces/JPEGImages/xqn_17.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>XuQinning</name>
+				<bndbox>
+					<xmin>1832</xmin>
+					<ymin>107</ymin>
+					<xmax>3162</xmax>
+					<ymax>1940</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1603430380714</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>4608</width>
+		<height>3456</height>
+		<depth>3</depth>
+	</size>
+</doc>

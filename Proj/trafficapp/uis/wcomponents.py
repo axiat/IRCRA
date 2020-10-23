@@ -1,7 +1,7 @@
-from PyQt5.QtWidgets import QLabel
-from PyQt5.QtCore import pyqtSignal
+from  PyQt5.QtWidgets import QLabel
+from  PyQt5.QtCore import pyqtSignal
 
-
+# 定制标签，实现了clicked信号
 class WLabel(QLabel):
     clicked = pyqtSignal()
 
@@ -10,3 +10,4 @@ class WLabel(QLabel):
 
     def mouseReleaseEvent(self, e):
         self.clicked.emit()
+

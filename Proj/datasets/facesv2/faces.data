@@ -1,0 +1,4 @@
+classes=5
+train=faces/train.txt
+valid=faces/train.txt
+names=faces/faces.names
