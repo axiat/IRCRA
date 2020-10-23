@@ -4,11 +4,11 @@ from trafficapp.uis.trafficdev import WTrafficDev
 from PyQt5.QtGui import QImage, QPixmap
 from trafficapp.uis.trafficvideoframe import WTrafficVideoDialog
 
+
 class WTrafficDialog(QDialog):
     def __init__(self):
         super(WTrafficDialog, self).__init__()
         self.main_id = 1
-        self.is_sub_dialog = False
         self.ui = Ui_Traffic()
         self.ui.setupUi(self)
         self.ui.lbl_video_1.clicked.connect(self.switch_video1_main)
@@ -35,7 +35,7 @@ class WTrafficDialog(QDialog):
         self.th_5.sign_video.connect(self.show_video)
         self.th_6.sign_video.connect(self.show_video)
         self.th_7.sign_video.connect(self.show_video)
-        
+
         # 启动线程
         self.th_1.start()
         self.th_2.start()
@@ -45,60 +45,46 @@ class WTrafficDialog(QDialog):
         self.th_6.start()
         self.th_7.start()
 
-    
     # 其他交互与逻辑处理
+
     def show_video(self, data, h, w, c, th_id):
         qimg = QImage(data, w, h, w*c, QImage.Format_RGB888)
         qpixmap = QPixmap.fromImage(qimg)
-        
+
         if th_id == 1:
-            self.show_video_in_label(self.ui.lbl_video_1,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_1, qpixmap)
             if self.main_id == 1:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
 
         if th_id == 2:
-            self.show_video_in_label(self.ui.lbl_video_2,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_2, qpixmap)
             if self.main_id == 2:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
 
         if th_id == 3:
-            self.show_video_in_label(self.ui.lbl_video_3,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_3, qpixmap)
             if self.main_id == 3:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
 
         if th_id == 4:
-            self.show_video_in_label(self.ui.lbl_video_4,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_4, qpixmap)
             if self.main_id == 4:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
-        
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
+
         if th_id == 5:
-            self.show_video_in_label(self.ui.lbl_video_5,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_5, qpixmap)
             if self.main_id == 5:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
 
         if th_id == 6:
-            self.show_video_in_label(self.ui.lbl_video_6,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_6, qpixmap)
             if self.main_id == 6:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
 
         if th_id == 7:
-            self.show_video_in_label(self.ui.lbl_video_7,qpixmap)
+            self.show_video_in_label(self.ui.lbl_video_7, qpixmap)
             if self.main_id == 7:
-                self.show_video_in_label(self.ui.lbl_video_main,qpixmap)
-                if self.is_sub_dialog:
-                    self.show_video_in_label(self.main_video_dlg.ui.lbl_video,qpixmap)
+                self.show_video_in_label(self.ui.lbl_video_main, qpixmap)
 
     def show_video_in_label(self, component, img):
         component.setPixmap(img)
@@ -108,7 +94,7 @@ class WTrafficDialog(QDialog):
         # 记录点击的标签
         self.main_id = 1
         # 显示视频，做个逻辑判定，并显示在主区
-        
+
     def switch_video2_main(self):
         self.main_id = 2
 
@@ -126,7 +112,6 @@ class WTrafficDialog(QDialog):
 
     def switch_video7_main(self):
         self.main_id = 7
-    
 
     def handle_video(self, btn_id):
         print("打开的按钮id：", btn_id)
@@ -137,28 +122,30 @@ class WTrafficDialog(QDialog):
         if btn_id == 102:
             pass
         if btn_id == 103:
-            pass    
+            pass
 
     def modify_bright(self, val):
         print("调整亮度值：", val)
-    
+
     # 主显示区弹窗显示监控视频
     def show_main_video(self):
-        # 1. 创建一个窗体
+        # 1. 创建一个主窗f
         print("创建窗体")
-        self.main_video_dlg = WTrafficVideoDialog(self)  # 非模式对话框
-        # 设置一个标记
-        self.is_sub_dialog = True
+        self.main_video_dlg = WTrafficVideoDialog(self) #非模式对话框
         
+        #绑定信号与槽
+        
+
+        # self.main_video_dlg.setModel(False)
+        # self.main_video_dlg.setWindowTitle("大视频")
         # 2. 进入窗体的消息训练
         self.main_video_dlg.exec()
         # 3. 释放窗体
-        self.is_sub_dialog = False
+        print("窗体关闭")
         self.main_video_dlg.destroy()
         self.main_video_dlg = None
-        
-    
-    def closeEvent(self, e):
+
+    def closeEvent(self,e):
         self.th_1.terminate()
         self.th_2.terminate()
         self.th_3.terminate()
@@ -166,3 +153,10 @@ class WTrafficDialog(QDialog):
         self.th_5.terminate()
         self.th_6.terminate()
         self.th_7.terminate()
+        # self.th_1.destroy()
+        # self.th_2.destroy()
+        # self.th_3.destroy()
+        # self.th_4.destroy()
+        # self.th_5.destroy()
+        # self.th_6.destroy()
+        # self.th_7.destroy()

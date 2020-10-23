@@ -2,4 +2,5 @@ from trafficapp.uis.trafficapp import WTrafficApp
 import sys
 
 app = WTrafficApp()
-sys.exit(app.exec())
+status = app.exec()
+sys.exit(status)

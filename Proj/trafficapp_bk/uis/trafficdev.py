@@ -14,9 +14,8 @@ class WTrafficDev(QThread):
     def run(self):
         while True:
             # 视频捕捉
-            reval, img = self.dev.read()
-            if not reval:
-                break
+            _, img = self.dev.read()
+
             # 处理
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             # 发送信号
