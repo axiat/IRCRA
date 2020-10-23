@@ -12,7 +12,7 @@ Uploaded Design(Draft, UML)
 
 ![微信图片_20201021094422.jpg](https://i.loli.net/2020/10/21/BJjF6GClcbknydI.jpg)
 
-[2020-10-21 Afternoon] Built the basic construction of my Project
+[2020-10-21 Afternoon] Established program structure
 
 [2020-10-22 Morning] Built User Interface
 
@@ -21,3 +21,4 @@ Uploaded Design(Draft, UML)
 [2020-10-23 Morning] Preprocessed Data (see datasets/xqnfaces, using colabeler, bash files& python) jpg->xml->txt
 
 [2020-10-23 Afternoon] Training model(detect/classify, using YOLOv4)
+![IMG_20201023_151633.jpg](https://i.loli.net/2020/10/23/f8cFIDQijrzSHko.jpg)
