@@ -22,3 +22,6 @@ Uploaded Design(Draft, UML)
 
 [2020-10-23 Afternoon] Training model(detect/classify, using YOLOv4)
 ![IMG_20201023_151633.jpg](https://i.loli.net/2020/10/23/f8cFIDQijrzSHko.jpg)
+
+training: enter IRCRA/Proj/faceDetect+Classify, run ./run_td_train_facesv2.sh (on Linux)
+testing: enter IRCRA/Proj/faceDetect+Classify/yolov4_1025/yolov4, run ./run_detect.sh
