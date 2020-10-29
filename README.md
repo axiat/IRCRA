@@ -41,9 +41,9 @@ testing: enter IRCRA/Proj/faceDetect+Classify/yolov4_1025/yolov4, run ./run_dete
 [2020-10-28] implemented several image processing module, integrated the traffic_detect network into app
 
 what's more, I
-- re-learning PyQt5
-- re-learning YOLOv4
-- refurnishing main window, login window.
-- re-train face_detect network
+- re-learned PyQt5
+- re-learned YOLOv4
+- refurnished main window, login window.
+- re-trained face_detect network
 
 [2020-10-29] integrated traffic pt, deployed a MYSQL database.

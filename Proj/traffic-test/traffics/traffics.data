@@ -1,0 +1,4 @@
+classes=5
+train=traffics/train.txt
+valid=traffics/train.txt
+names=traffics/traffics.names
