@@ -38,8 +38,9 @@ testing: enter IRCRA/Proj/faceDetect+Classify/yolov4_1025/yolov4, run ./run_dete
 
 [2020-10-27] trained traffic data, integrated web engine module.
 
-[2020-10-28] trained traffic data, implemented several processing module.
+[2020-10-28] implemented several image processing module, integrated the traffic_detect network into app
 
+what's more, I
 - re-learning PyQt5
 - re-learning YOLOv4
 - refurnishing main window, login window.
