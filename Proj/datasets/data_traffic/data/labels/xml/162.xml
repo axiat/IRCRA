@@ -1,0 +1,321 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>/home/qin/SeniorA/PracticeA/IRCRA/Proj/datasets/data_traffic/data/images/train_157-176/162.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>246</xmin>
+					<ymin>520</ymin>
+					<xmax>618</xmax>
+					<ymax>530</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>-4</xmin>
+					<ymin>864</ymin>
+					<xmax>298</xmax>
+					<ymax>1086</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>802</xmin>
+					<ymin>526</ymin>
+					<xmax>1914</xmax>
+					<ymax>1074</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>724</xmin>
+					<ymin>313</ymin>
+					<xmax>736</xmax>
+					<ymax>323</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>767</xmin>
+					<ymin>313</ymin>
+					<xmax>782</xmax>
+					<ymax>326</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>1003</xmin>
+					<ymin>359</ymin>
+					<xmax>1017</xmax>
+					<ymax>374</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>1006</xmin>
+					<ymin>406</ymin>
+					<xmax>1018</xmax>
+					<ymax>419</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>1007</xmin>
+					<ymin>432</ymin>
+					<xmax>1017</xmax>
+					<ymax>442</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> GreenLight</name>
+				<bndbox>
+					<xmin>814</xmin>
+					<ymin>341</ymin>
+					<xmax>827</xmax>
+					<ymax>349</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1691</xmin>
+					<ymin>470</ymin>
+					<xmax>1896</xmax>
+					<ymax>556</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1440</xmin>
+					<ymin>494</ymin>
+					<xmax>1916</xmax>
+					<ymax>681</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>970</xmin>
+					<ymin>461</ymin>
+					<xmax>1296</xmax>
+					<ymax>586</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1283</xmin>
+					<ymin>497</ymin>
+					<xmax>1319</xmax>
+					<ymax>548</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1271</xmin>
+					<ymin>473</ymin>
+					<xmax>1376</xmax>
+					<ymax>553</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>866</xmin>
+					<ymin>473</ymin>
+					<xmax>1030</xmax>
+					<ymax>533</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>611</xmin>
+					<ymin>460</ymin>
+					<xmax>874</xmax>
+					<ymax>553</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1</xmin>
+					<ymin>468</ymin>
+					<xmax>259</xmax>
+					<ymax>607</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>88</xmin>
+					<ymin>461</ymin>
+					<xmax>136</xmax>
+					<ymax>480</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>137</xmin>
+					<ymin>380</ymin>
+					<xmax>373</xmax>
+					<ymax>509</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>280</xmin>
+					<ymin>462</ymin>
+					<xmax>379</xmax>
+					<ymax>505</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>373</xmin>
+					<ymin>457</ymin>
+					<xmax>466</xmax>
+					<ymax>510</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>371</xmin>
+					<ymin>417</ymin>
+					<xmax>519</xmax>
+					<ymax>489</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>450</xmin>
+					<ymin>451</ymin>
+					<xmax>533</xmax>
+					<ymax>498</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>525</xmin>
+					<ymin>461</ymin>
+					<xmax>578</xmax>
+					<ymax>497</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>548</xmin>
+					<ymin>426</ymin>
+					<xmax>638</xmax>
+					<ymax>480</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>200</xmin>
+					<ymin>644</ymin>
+					<xmax>810</xmax>
+					<ymax>1078</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>851</xmin>
+					<ymin>467</ymin>
+					<xmax>871</xmax>
+					<ymax>490</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>929</xmin>
+					<ymin>469</ymin>
+					<xmax>935</xmax>
+					<ymax>475</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>940</xmin>
+					<ymin>467</ymin>
+					<xmax>949</xmax>
+					<ymax>476</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>1033</xmin>
+					<ymin>462</ymin>
+					<xmax>1048</xmax>
+					<ymax>500</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>993</xmin>
+					<ymin>464</ymin>
+					<xmax>1001</xmax>
+					<ymax>486</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>998</xmin>
+					<ymin>466</ymin>
+					<xmax>1007</xmax>
+					<ymax>483</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>980</xmin>
+					<ymin>463</ymin>
+					<xmax>989</xmax>
+					<ymax>481</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>986</xmin>
+					<ymin>464</ymin>
+					<xmax>994</xmax>
+					<ymax>485</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1603743607142</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+</doc>

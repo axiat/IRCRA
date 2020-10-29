@@ -10,6 +10,9 @@
     <height>881</height>
    </rect>
   </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
   <property name="windowTitle">
    <string>交通违规监控系统</string>
   </property>
@@ -293,10 +296,10 @@
    <widget class="QRadioButton" name="btn_gray">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>160</x>
       <y>60</y>
-      <width>110</width>
-      <height>19</height>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -311,8 +314,8 @@
      <rect>
       <x>310</x>
       <y>60</y>
-      <width>110</width>
-      <height>19</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -328,7 +331,7 @@
       <x>440</x>
       <y>60</y>
       <width>110</width>
-      <height>19</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -344,7 +347,7 @@
       <x>670</x>
       <y>60</y>
       <width>271</width>
-      <height>22</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="maximum">
@@ -372,7 +375,7 @@
       <x>580</x>
       <y>60</y>
       <width>68</width>
-      <height>15</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -382,10 +385,10 @@
    <widget class="QRadioButton" name="btn_src">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>20</x>
       <y>60</y>
-      <width>110</width>
-      <height>19</height>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -476,16 +479,19 @@
     </widget>
    </widget>
    <widget class="QLabel" name="label_11">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>360</y>
+      <y>345</y>
       <width>131</width>
-      <height>16</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;font color=&quot;blue&quot; size=4&gt;&lt;strong&gt;违规信息报警&lt;/strong&gt;&lt;/font&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:small; font-weight:600; color:#0000ff;&quot;&gt;违规信息报警&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -521,13 +527,13 @@
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>610</y>
+      <y>595</y>
       <width>131</width>
-      <height>16</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;font color=&quot;blue&quot; size=4&gt;&lt;strong&gt;监控日志信息&lt;/strong&gt;&lt;/font&gt;</string>
+     <string>&lt;font color=&quot;blue&quot; size=4&gt;&lt;span style=&quot; font-size:small; font-weight:600; color:#0000ff;&quot;&gt;&lt;strong&gt;监控日志信息&lt;/strong&gt;&lt;/font&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

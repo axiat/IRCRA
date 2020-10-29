@@ -2,7 +2,7 @@ from yolo.detector import YOLOv4Detector
 if __name__ == "__main__":
     detector = YOLOv4Detector(weights="best.pt")
 
-    img = detector.load_image("imgs/xqn_6.jpg")
+    img = detector.load_image("imgs/zy6.png")
     # result = detector.detect(img)[0]  # 总长6：目标位置与大小（0:3），目标概率(4)，目标类别[5]
     # print(result)
     result = detector.detect(img)[0][0]  # 总长6：目标位置与大小（0:3），目标概率(4)，目标类别[5]

@@ -1,0 +1,4 @@
+classes=5
+train=facesv3/train.txt
+valid=facesv3/train.txt
+names=facesv3/faces.names

@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>/home/qin/SeniorA/PracticeA/IRCRA/Proj/datasets/data_traffic/data/images/train_157-176/174.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>4</xmin>
+					<ymin>857</ymin>
+					<xmax>295</xmax>
+					<ymax>1077</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>816</xmin>
+					<ymin>586</ymin>
+					<xmax>1913</xmax>
+					<ymax>1068</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>626</xmin>
+					<ymin>526</ymin>
+					<xmax>952</xmax>
+					<ymax>547</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>0</xmin>
+					<ymin>528</ymin>
+					<xmax>177</xmax>
+					<ymax>543</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>742</xmin>
+					<ymin>327</ymin>
+					<xmax>753</xmax>
+					<ymax>337</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>784</xmin>
+					<ymin>329</ymin>
+					<xmax>795</xmax>
+					<ymax>339</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> GreenLight</name>
+				<bndbox>
+					<xmin>832</xmin>
+					<ymin>355</ymin>
+					<xmax>843</xmax>
+					<ymax>364</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>940</xmin>
+					<ymin>286</ymin>
+					<xmax>1918</xmax>
+					<ymax>678</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>887</xmin>
+					<ymin>480</ymin>
+					<xmax>915</xmax>
+					<ymax>498</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>786</xmin>
+					<ymin>478</ymin>
+					<xmax>841</xmax>
+					<ymax>524</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>562</xmin>
+					<ymin>441</ymin>
+					<xmax>652</xmax>
+					<ymax>497</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>751</xmin>
+					<ymin>462</ymin>
+					<xmax>790</xmax>
+					<ymax>481</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>654</xmin>
+					<ymin>460</ymin>
+					<xmax>704</xmax>
+					<ymax>488</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>670</xmin>
+					<ymin>477</ymin>
+					<xmax>698</xmax>
+					<ymax>495</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>259</xmin>
+					<ymin>465</ymin>
+					<xmax>652</xmax>
+					<ymax>604</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>392</xmin>
+					<ymin>431</ymin>
+					<xmax>537</xmax>
+					<ymax>481</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>296</xmin>
+					<ymin>474</ymin>
+					<xmax>395</xmax>
+					<ymax>517</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>153</xmin>
+					<ymin>390</ymin>
+					<xmax>391</xmax>
+					<ymax>514</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>63</xmin>
+					<ymin>471</ymin>
+					<xmax>159</xmax>
+					<ymax>523</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1</xmin>
+					<ymin>467</ymin>
+					<xmax>90</xmax>
+					<ymax>513</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>175</xmin>
+					<ymin>472</ymin>
+					<xmax>274</xmax>
+					<ymax>604</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>940</xmin>
+					<ymin>481</ymin>
+					<xmax>957</xmax>
+					<ymax>522</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>206</xmin>
+					<ymin>638</ymin>
+					<xmax>806</xmax>
+					<ymax>1078</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1603744452970</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+</doc>

@@ -24,4 +24,21 @@ Uploaded Design(Draft, UML)
 ![IMG_20201023_151633.jpg](https://i.loli.net/2020/10/23/f8cFIDQijrzSHko.jpg)
 
 training: enter IRCRA/Proj/faceDetect+Classify, run ./run_td_train_facesv2.sh (on Linux)
+
 testing: enter IRCRA/Proj/faceDetect+Classify/yolov4_1025/yolov4, run ./run_detect.sh
+
+今天特么的被zsh坑了.
+别直接把.bat复制改个.sh,zsh末尾有%,坑你python模块的导入
+
+[2020-10-26] Integrated the face_detect network into app, labeled traffic data
+
+![image.png](https://i.loli.net/2020/10/28/oVRTPMtK7lSHWav.png)
+
+[2020-10-27] trained traffic data, integrated web engine module.
+
+[2020-10-28] trained traffic data, implemented several processing module.
+
+- re-learning PyQt5
+- re-learning YOLOv4
+- refurnishing main window, login window.
+- re-train face_detect network

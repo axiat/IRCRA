@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>/home/qin/Desktop/xqnfacesex/2020-10-28-233748.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>XuQinning</name>
+				<bndbox>
+					<xmin>547</xmin>
+					<ymin>179</ymin>
+					<xmax>805</xmax>
+					<ymax>556</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1603947467489</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+</doc>

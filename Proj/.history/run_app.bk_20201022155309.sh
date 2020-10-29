@@ -1,1 +1,0 @@
-python -m trafficapp_bk.main

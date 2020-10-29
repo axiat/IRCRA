@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<doc>
+	<path>/home/qin/SeniorA/PracticeA/IRCRA/Proj/datasets/data_traffic/data/images/train_157-176/167.jpg</path>
+	<outputs>
+		<object>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>838</xmin>
+					<ymin>536</ymin>
+					<xmax>1916</xmax>
+					<ymax>1058</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name>CrossWalk</name>
+				<bndbox>
+					<xmin>0</xmin>
+					<ymin>906</ymin>
+					<xmax>268</xmax>
+					<ymax>1084</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>734</xmin>
+					<ymin>313</ymin>
+					<xmax>745</xmax>
+					<ymax>323</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>776</xmin>
+					<ymin>315</ymin>
+					<xmax>787</xmax>
+					<ymax>324</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>1010</xmin>
+					<ymin>360</ymin>
+					<xmax>1024</xmax>
+					<ymax>373</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>1013</xmin>
+					<ymin>409</ymin>
+					<xmax>1025</xmax>
+					<ymax>418</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> RedLight</name>
+				<bndbox>
+					<xmin>1014</xmin>
+					<ymin>430</ymin>
+					<xmax>1024</xmax>
+					<ymax>442</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> GreenLight</name>
+				<bndbox>
+					<xmin>825</xmin>
+					<ymin>342</ymin>
+					<xmax>833</xmax>
+					<ymax>350</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>-4</xmin>
+					<ymin>4</ymin>
+					<xmax>802</xmax>
+					<ymax>884</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>767</xmin>
+					<ymin>462</ymin>
+					<xmax>949</xmax>
+					<ymax>551</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>957</xmin>
+					<ymin>478</ymin>
+					<xmax>1096</xmax>
+					<ymax>538</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>797</xmin>
+					<ymin>452</ymin>
+					<xmax>815</xmax>
+					<ymax>464</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>843</xmin>
+					<ymin>453</ymin>
+					<xmax>859</xmax>
+					<ymax>464</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1411</xmin>
+					<ymin>479</ymin>
+					<xmax>1639</xmax>
+					<ymax>565</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1519</xmin>
+					<ymin>474</ymin>
+					<xmax>1805</xmax>
+					<ymax>564</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Car</name>
+				<bndbox>
+					<xmin>1849</xmin>
+					<ymin>518</ymin>
+					<xmax>1919</xmax>
+					<ymax>577</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>1646</xmin>
+					<ymin>510</ymin>
+					<xmax>1858</xmax>
+					<ymax>718</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>212</xmin>
+					<ymin>600</ymin>
+					<xmax>784</xmax>
+					<ymax>1084</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>1124</xmin>
+					<ymin>472</ymin>
+					<xmax>1140</xmax>
+					<ymax>512</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>1169</xmin>
+					<ymin>469</ymin>
+					<xmax>1192</xmax>
+					<ymax>527</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>1043</xmin>
+					<ymin>464</ymin>
+					<xmax>1057</xmax>
+					<ymax>479</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>967</xmin>
+					<ymin>463</ymin>
+					<xmax>976</xmax>
+					<ymax>498</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>973</xmin>
+					<ymin>469</ymin>
+					<xmax>980</xmax>
+					<ymax>480</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>934</xmin>
+					<ymin>463</ymin>
+					<xmax>949</xmax>
+					<ymax>491</ymax>
+				</bndbox>
+			</item>
+			<item>
+				<name> Person</name>
+				<bndbox>
+					<xmin>944</xmin>
+					<ymin>472</ymin>
+					<xmax>964</xmax>
+					<ymax>513</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1603743925265</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+</doc>
