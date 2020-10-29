@@ -1,6 +1,7 @@
 Hi!
 
 This is the documentation of my recent program IRCRA, which stands for Intelligent Road Condition Report Application. The application implements the automatic detection of traffic violation/traffic volume and restore captured pictures in a mysql database. The program is directed by Prof. Qiang, Yang.
+To create the conda environment needed to run my project please open your shell and type in `conda env create -f environment.yml` and `conda activate PracticeA` 
 
     While running my project, please note that the root directory is IRCRA/Proj instead of IRCRA(while importing python module)
 
@@ -42,3 +43,5 @@ testing: enter IRCRA/Proj/faceDetect+Classify/yolov4_1025/yolov4, run ./run_dete
 - re-learning YOLOv4
 - refurnishing main window, login window.
 - re-train face_detect network
+
+[2020-10-29] integrated traffic pt, deployed a MYSQL database.
