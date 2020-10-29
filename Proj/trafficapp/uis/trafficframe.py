@@ -3,6 +3,8 @@ from trafficapp.uis.trafficui import Ui_Traffic
 from trafficapp.uis.trafficdev import WTrafficDev
 from PyQt5.QtGui import QImage, QPixmap
 from trafficapp.uis.trafficvideoframe import WTrafficVideoDialog
+from PyQt5.QtCore import QUrl
+from trafficapp.biz.map import GetMapUrl
 
 class WTrafficDialog(QDialog):
     def __init__(self):
@@ -19,13 +21,18 @@ class WTrafficDialog(QDialog):
         self.ui.lbl_video_6.clicked.connect(self.switch_video6_main)
         self.ui.lbl_video_7.clicked.connect(self.switch_video7_main)
         self.ui.lbl_video_main.clicked.connect(self.show_main_video)
+
+    def init_dev(self):
+        # 加载地图
+        map_url=GetMapUrl()
+        self.ui.wdt_map.load(QUrl(map_url))
         # 创建线程
         self.th_1 = WTrafficDev(1, 0)
         self.th_2 = WTrafficDev(2, "交通视频.mp4")
-        self.th_3 = WTrafficDev(3, "交通视频.mp4")
-        self.th_4 = WTrafficDev(4, "交通视频.mp4")
-        self.th_5 = WTrafficDev(5, "交通视频.mp4")
-        self.th_6 = WTrafficDev(6, "交通视频.mp4")
+        self.th_3 = WTrafficDev(3, "街口1.mp4")
+        self.th_4 = WTrafficDev(4, "街口2.mp4")
+        self.th_5 = WTrafficDev(5, "街口3.mp4")
+        self.th_6 = WTrafficDev(6, "街口4.mp4")
         self.th_7 = WTrafficDev(7, "交通视频.mp4")
         # 绑定视频槽函数
         self.th_1.sign_video.connect(self.show_video)
@@ -145,12 +152,13 @@ class WTrafficDialog(QDialog):
     # 主显示区弹窗显示监控视频
     def show_main_video(self):
         # 1. 创建一个窗体
-        print("创建窗体")
         self.main_video_dlg = WTrafficVideoDialog(self)  # 非模式对话框
         # 设置一个标记
         self.is_sub_dialog = True
         
         # 2. 进入窗体的消息训练
+        # self.main_video_dlg.setModal(False)
+        # self.main_video_dlg.show()
         self.main_video_dlg.exec()
         # 3. 释放窗体
         self.is_sub_dialog = False

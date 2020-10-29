@@ -32,6 +32,7 @@ testing: enter IRCRA/Proj/faceDetect+Classify/yolov4_1025/yolov4, run ./run_dete
 别直接把.bat复制改个.sh,zsh末尾有%,坑你python模块的导入
 
 [2020-10-26] Integrated the face_detect network into app, labeled traffic data
+(face_logi)
 
 ![image.png](https://i.loli.net/2020/10/28/oVRTPMtK7lSHWav.png)
 

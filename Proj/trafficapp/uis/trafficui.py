@@ -7,13 +7,11 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from trafficapp.uis.wcomponents import WLabel
 
 class Ui_Traffic(object):
     def setupUi(self, Traffic):
         Traffic.setObjectName("Traffic")
         Traffic.resize(1575, 881)
-        Traffic.setMouseTracking(False)
         self.frm_video_main = QtWidgets.QFrame(Traffic)
         self.frm_video_main.setGeometry(QtCore.QRect(240, 180, 720, 540))
         self.frm_video_main.setFrameShape(QtWidgets.QFrame.Box)
@@ -94,21 +92,21 @@ class Ui_Traffic(object):
         self.frame_9.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_9.setObjectName("frame_9")
         self.btn_gray = QtWidgets.QRadioButton(self.frame_9)
-        self.btn_gray.setGeometry(QtCore.QRect(160, 60, 141, 31))
+        self.btn_gray.setGeometry(QtCore.QRect(180, 60, 110, 19))
         self.btn_gray.setObjectName("btn_gray")
         self.bgr_video_handle = QtWidgets.QButtonGroup(Traffic)
         self.bgr_video_handle.setObjectName("bgr_video_handle")
         self.bgr_video_handle.addButton(self.btn_gray)
         self.btn_clear = QtWidgets.QRadioButton(self.frame_9)
-        self.btn_clear.setGeometry(QtCore.QRect(310, 60, 121, 31))
+        self.btn_clear.setGeometry(QtCore.QRect(310, 60, 110, 19))
         self.btn_clear.setObjectName("btn_clear")
         self.bgr_video_handle.addButton(self.btn_clear)
         self.btn_contour = QtWidgets.QRadioButton(self.frame_9)
-        self.btn_contour.setGeometry(QtCore.QRect(440, 60, 110, 31))
+        self.btn_contour.setGeometry(QtCore.QRect(440, 60, 110, 19))
         self.btn_contour.setObjectName("btn_contour")
         self.bgr_video_handle.addButton(self.btn_contour)
         self.sld_brightness = QtWidgets.QSlider(self.frame_9)
-        self.sld_brightness.setGeometry(QtCore.QRect(670, 60, 271, 31))
+        self.sld_brightness.setGeometry(QtCore.QRect(670, 60, 271, 22))
         self.sld_brightness.setMaximum(255)
         self.sld_brightness.setSingleStep(5)
         self.sld_brightness.setProperty("value", 128)
@@ -117,10 +115,10 @@ class Ui_Traffic(object):
         self.sld_brightness.setTickInterval(20)
         self.sld_brightness.setObjectName("sld_brightness")
         self.label_9 = QtWidgets.QLabel(self.frame_9)
-        self.label_9.setGeometry(QtCore.QRect(580, 60, 68, 31))
+        self.label_9.setGeometry(QtCore.QRect(580, 60, 68, 21))
         self.label_9.setObjectName("label_9")
         self.btn_src = QtWidgets.QRadioButton(self.frame_9)
-        self.btn_src.setGeometry(QtCore.QRect(20, 60, 141, 31))
+        self.btn_src.setGeometry(QtCore.QRect(40, 60, 110, 19))
         self.btn_src.setChecked(True)
         self.btn_src.setObjectName("btn_src")
         self.bgr_video_handle.addButton(self.btn_src)
@@ -135,10 +133,9 @@ class Ui_Traffic(object):
         self.frame_11.setFrameShape(QtWidgets.QFrame.Box)
         self.frame_11.setFrameShadow(QtWidgets.QFrame.Plain)
         self.frame_11.setObjectName("frame_11")
-        self.lbl_map = QtWidgets.QLabel(self.frame_11)
-        self.lbl_map.setGeometry(QtCore.QRect(0, 0, 588, 340))
-        self.lbl_map.setAlignment(QtCore.Qt.AlignCenter)
-        self.lbl_map.setObjectName("lbl_map")
+        self.wdt_map = QtWebEngineWidgets.QWebEngineView(self.frame_11)
+        self.wdt_map.setGeometry(QtCore.QRect(5, 5, 578, 330))
+        self.wdt_map.setObjectName("wdt_map")
         self.frame_12 = QtWidgets.QFrame(self.frm_info)
         self.frame_12.setGeometry(QtCore.QRect(5, 390, 588, 200))
         self.frame_12.setFrameShape(QtWidgets.QFrame.Box)
@@ -148,8 +145,7 @@ class Ui_Traffic(object):
         self.lsv_warning.setGeometry(QtCore.QRect(5, 5, 580, 190))
         self.lsv_warning.setObjectName("lsv_warning")
         self.label_11 = QtWidgets.QLabel(self.frm_info)
-        self.label_11.setEnabled(True)
-        self.label_11.setGeometry(QtCore.QRect(220, 345, 131, 41))
+        self.label_11.setGeometry(QtCore.QRect(220, 350, 131, 31))
         self.label_11.setAlignment(QtCore.Qt.AlignCenter)
         self.label_11.setObjectName("label_11")
         self.frame_13 = QtWidgets.QFrame(self.frm_info)
@@ -161,7 +157,7 @@ class Ui_Traffic(object):
         self.tbv_log.setGeometry(QtCore.QRect(5, 5, 580, 220))
         self.tbv_log.setObjectName("tbv_log")
         self.label_12 = QtWidgets.QLabel(self.frm_info)
-        self.label_12.setGeometry(QtCore.QRect(220, 595, 131, 41))
+        self.label_12.setGeometry(QtCore.QRect(220, 600, 131, 31))
         self.label_12.setAlignment(QtCore.Qt.AlignCenter)
         self.label_12.setObjectName("label_12")
 
@@ -186,8 +182,8 @@ class Ui_Traffic(object):
         self.btn_contour.setText(_translate("Traffic", "线条图"))
         self.label_9.setText(_translate("Traffic", "亮度："))
         self.btn_src.setText(_translate("Traffic", "原始视频"))
-        self.lbl_map.setText(_translate("Traffic", "某个街区的局部地图"))
-        self.label_11.setText(_translate("Traffic", "<html><head/><body><p><span style=\" font-size:small; font-weight:600; color:#0000ff;\">违规信息报警</span></p></body></html>"))
-        self.label_12.setText(_translate("Traffic", "<font color=\"blue\" size=4><span style=\" font-size:small; font-weight:600; color:#0000ff;\"><strong>监控日志信息</strong></font>"))
+        self.label_11.setText(_translate("Traffic", "<font color=\"blue\" size=4><strong>违规信息报警</strong></font>"))
+        self.label_12.setText(_translate("Traffic", "<font color=\"blue\" size=4><strong>监控日志信息</strong></font>"))
 
-# from wlabel import WLabel
+from PyQt5 import QtWebEngineWidgets
+from trafficapp.uis.wcomponents import WLabel
