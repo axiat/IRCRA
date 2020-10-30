@@ -20,7 +20,7 @@ class TrafficDetector:
         # 构建模型
         self.model = Darknet(self.cfg, self.img_size)
         # 加载预训练模型
-        self.model.load_state_dict(torch.load(self.weights)['model'])
+        self.model.load_state_dict(torch.load(self.weights,map_location="cpu")['model'])
         self.CUDA = torch.cuda.is_available()
         if self.CUDA:
             self.model.cuda()
